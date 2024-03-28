@@ -1,0 +1,17 @@
+body {
+    background-color: #325354;
+    margin: 0;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #dfeff0;
+}
+body #home{
+    font-size: 300%;
+    margin-left: 5%;
+}
+body #home {
+    color: #dfeff0;
+    cursor: pointer;
+
+}
