@@ -6,16 +6,16 @@ var formats;
 
 function loadPresets() {
     fetch("./resources/people.txt").then((res) => res.text()).then((text) => {
-        people = text.split('\r\n');
+        people = text.split('\n');
     }).catch((e) => console.error(e));
     fetch("./resources/events.txt").then((res) => res.text()).then((text) => {
-            events = text.split('\r\n');
+            events = text.split('\n');
         }).catch((e) => console.error(e));
     fetch("./resources/groups.txt").then((res) => res.text()).then((text) => {
-            groups = text.split('\r\n');
+            groups = text.split('\n');
         }).catch((e) => console.error(e));
     fetch("./resources/things.txt").then((res) => res.text()).then((text) => {
-            things = text.split('\r\n');
+            things = text.split('\n');
         }).catch((e) => console.error(e));
     fetch("./resources/formats.txt").then((res) => res.text()).then((text) => {
         formats = text.split('\n');
@@ -41,7 +41,6 @@ function createConspiracy() {
         var rep = things[Math.floor(Math.random() * things.length)];
         text = text.replace("_Thing_", rep);
     }
-
     document.getElementById("content").innerHTML = text;
 
 }
