@@ -12,3 +12,5 @@
 {"format": "_Person_ was a part of _Event_", "peopleN": 1, "eventN": 1, "groupN": 0, "thingN": 0}
 {"format": "_Person_ is controlling _Thing_", "peopleN": 1, "eventN": 0, "groupN": 0, "thingN": 1}
 {"format": "Because of _Event_, _Person_ is trying to ban _Thing_", "peopleN":1, "eventN":1, "groupN": 0, "thingN": 1}
+{"format": "_Person_ is manipulating _Group_ because of _Event_", "peopleN":1, "eventN": 1, "groupN": 1, "thingN": 0}
+{"format": "_Event_ was a test run for _Event_", "peopleN": 0, "eventN": 2, "groupN": 0, "thingN": 0}
