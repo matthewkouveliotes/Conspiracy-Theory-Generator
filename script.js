@@ -23,7 +23,7 @@ function loadPresets() {
 }
 var currSpin = 0;
 function createConspiracy() {
-    currSpin+= 3600
+    currSpin+= 360000
 
     document.getElementById("content").style.transform = "rotateX(" + currSpin + "deg)";
     var format = JSON.parse(formats[Math.floor(Math.random() * formats.length)]);
