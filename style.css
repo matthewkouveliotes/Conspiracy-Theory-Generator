@@ -46,3 +46,6 @@ body #home {
 #generate:hover {
     background-color: #877231;
 }
+#content {
+    transition: transform 1s;
+}
