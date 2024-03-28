@@ -21,9 +21,11 @@ function loadPresets() {
         formats = text.split('\n');
     }).catch((e) => console.error(e));
 }
-
+var currSpin = 0;
 function createConspiracy() {
-    //document.getElementById("content").style.transform =
+    currSpin+= 3600
+
+    document.getElementById("content").style.transform = "rotateX(" + currSpin + "deg)";
     var format = JSON.parse(formats[Math.floor(Math.random() * formats.length)]);
     var text = format.format;
     for(var i = 0; i < format.peopleN; i++) {
@@ -42,6 +44,7 @@ function createConspiracy() {
         var rep = things[Math.floor(Math.random() * things.length)];
         text = text.replace("_Thing_", rep);
     }
+
     document.getElementById("content").innerHTML = text;
 
 }

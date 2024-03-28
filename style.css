@@ -47,5 +47,5 @@ body #home {
     background-color: #877231;
 }
 #content {
-    transition: transform 1s;
+    transition: transform 500ms;
 }
