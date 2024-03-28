@@ -13,5 +13,22 @@ body #home{
 body #home {
     color: #dfeff0;
     cursor: pointer;
+}
+#title {
+    font-size: 250%;
+    margin-left: 10%;
+}
+#desc {
+    margin-left: 13%;
+}
 
+#display {
+    background-color: #7f9899;
+    text-align: center;
+    font-size: 300%;
+    padding: 5%;
+    border-radius: 25px;
+    margin: 0 5%;
+    color: #dbdacc;
+    transition: max-height 250ms;
 }

@@ -42,6 +42,6 @@ function createConspiracy() {
         text = text.replace("_Thing_", rep);
     }
 
-    console.log(text);
+    document.getElementById("content").innerHTML = text;
 
 }
