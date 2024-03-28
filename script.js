@@ -23,7 +23,7 @@ function loadPresets() {
 }
 
 function createConspiracy() {
-    document.getElementById("content").style.transform =
+    //document.getElementById("content").style.transform =
     var format = JSON.parse(formats[Math.floor(Math.random() * formats.length)]);
     var text = format.format;
     for(var i = 0; i < format.peopleN; i++) {
