@@ -9,6 +9,7 @@ body {
 body #home{
     font-size: 300%;
     margin-left: 5%;
+    margin-top: 2.5%
 }
 body #home {
     color: #dfeff0;
@@ -16,10 +17,10 @@ body #home {
 }
 #title {
     font-size: 250%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 #desc {
-    margin-left: 13%;
+    margin-left: 10%;
 }
 
 #display {
@@ -30,9 +31,18 @@ body #home {
     border-radius: 25px;
     margin: 0 5%;
     color: #dbdacc;
-    transition: max-height 250ms;
 }
 
 #generate {
-    background-color:
+    background-color: #deba50;
+    border-radius: 25px;
+    border-style: none;
+    cursor: pointer;
+    font-family: "Archivo Black", sans-serif;
+}
+#generate p {
+    padding: 5px, 15px;
+}
+#generate:hover {
+    background-color: #877231;
 }
