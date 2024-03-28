@@ -1,0 +1,13 @@
+{"format": "_Person_ caused _Event_", "peopleN": 1, "eventN": 1, "groupN": 0, "thingN": 0}
+{"format": "_Event_ was staged by _Group_", "peopleN": 0, "eventN": 1, "groupN": 1, "thingN": 0}
+{"format": "_Group_ is controlling _Thing_", "peopleN": 0, "eventN": 0, "groupN": 1, "thingN": 1}
+{"format": "_Event_ was an inside job", "peopleN": 0, "eventN": 1, "groupN": 0, "thingN": 0}
+{"format": "_Person_ is not who they seem", "peopleN": 1, "eventN": 0, "groupN": 0, "thingN": 0}
+{"format": "_Event_ is a distraction from _Event_", "peopleN": 0, "eventN": 2, "groupN": 0, "thingN": 0}
+{"format": "_Group_ caused _Event_", "peopleN": 0, "eventN": 1, "groupN": 1, "thingN": 0}
+{"format": "_Person_ is controlled by _Group_", "peopleN": 1, "eventN": 0, "groupN": 1, "thingN": 0}
+{"format": "_Event_ is a hoax", "peopleN": 0, "eventN": 1, "groupN": 0, "thingN": 0}
+{"format": "_Person_ is a part of _Group_", "peopleN": 1, "eventN": 0, "groupN": 1, "thingN": 0}
+{"format": "_Person_ is a clone of _Person_", "peopleN": 2, "eventN": 0, "groupN": 0, "thingN": 0}
+{"format": "_Person_ was a part of _Event_", "peopleN": 1, "eventN": 1, "groupN": 0, "thingN": 0}
+{"format": "_Person_ is controlling _Thing_", "peopleN": 1, "eventN": 0, "groupN": 0, "thingN": 1}
