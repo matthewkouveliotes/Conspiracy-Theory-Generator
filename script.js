@@ -33,8 +33,12 @@ function loadPresets() {
 }
 var currSpin = 0;
 function createConspiracy() {
+    if(!document.getElementById("agree").checked) {
+        return;
+    }
     currSpin+= 360000
-
+    document.getElementById("agree").style.visibility = "hidden";
+    document.getElementById("lab").style.visibility = "hidden";
     document.getElementById("content").style.transform = "rotateX(" + currSpin + "deg)";
     var text = formats[Math.floor(Math.random() * formats.length)]
     var peopleN = 0;
@@ -73,6 +77,7 @@ function createConspiracy() {
 
 function calculatePossible(checks) {
     if(checks != 5) return;
+
     var total = 0;
     var eventAmt = events.length;
     var peopleAmt = people.length;
