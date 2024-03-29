@@ -103,5 +103,5 @@ function calculatePossible(checks) {
 
 
     }
-    document.getElementById("total").innerHTML = "There are " + total + " calculated possible conspiracy theories";
+    document.getElementById("total").innerHTML = "There are " + total + " calculated possible conspiracy theories<br>Some are bound to be correct, right?";
 }
