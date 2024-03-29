@@ -39,10 +39,10 @@ body #home {
     border-style: none;
     cursor: pointer;
     font-family: "Archivo Black", sans-serif;
+    padding: 10px 50px;
+    font-size: 50%;
 }
-#generate p {
-    padding: 5px, 15px;
-}
+
 #generate:hover {
     background-color: #877231;
 }
