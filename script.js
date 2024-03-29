@@ -28,19 +28,32 @@ function createConspiracy() {
     document.getElementById("content").style.transform = "rotateX(" + currSpin + "deg)";
     var format = JSON.parse(formats[Math.floor(Math.random() * formats.length)]);
     var text = format.format;
-    for(var i = 0; i < format.peopleN; i++) {
+    var peopleN = 0;
+    var amtPeople = text.match(/_Person_/g);
+    if(amtPeople != null) peopleN = amtPeople.length;
+    var groupN = 0;
+    var amtGroup = text.match(/_Group_/g);
+    if(amtGroup != null) groupN = amtGroup.length;
+    var eventN = 0;
+    var amtEvent = text.match(/_Event_/g);
+    if(amtEvent != null) eventN = amtEvent.length;
+    var thingN = 0;
+    var amtThing = text.match(/_Thing_/g);
+    if(amtThing != null) thingN = amtThing.length;
+
+    for(var i = 0; i < peopleN; i++) {
         var rep = people[Math.floor(Math.random() * people.length)];
         text = text.replace("_Person_", rep);
     }
-    for(var i = 0; i < format.groupN; i++) {
+    for(var i = 0; i < groupN; i++) {
         var rep = groups[Math.floor(Math.random() * groups.length)];
         text = text.replace("_Group_", rep);
     }
-    for(var i = 0; i < format.eventN; i++) {
+    for(var i = 0; i < eventN; i++) {
         var rep = events[Math.floor(Math.random() * events.length)];
         text = text.replace("_Event_", rep);
     }
-    for(var i = 0; i < format.thingN; i++) {
+    for(var i = 0; i < thingN; i++) {
         var rep = things[Math.floor(Math.random() * things.length)];
         text = text.replace("_Thing_", rep);
     }
