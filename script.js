@@ -26,8 +26,7 @@ function createConspiracy() {
     currSpin+= 360000
 
     document.getElementById("content").style.transform = "rotateX(" + currSpin + "deg)";
-    var format = JSON.parse(formats[Math.floor(Math.random() * formats.length)]);
-    var text = format.format;
+    var text = formats[Math.floor(Math.random() * formats.length)]
     var peopleN = 0;
     var amtPeople = text.match(/_Person_/g);
     if(amtPeople != null) peopleN = amtPeople.length;

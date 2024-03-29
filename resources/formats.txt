@@ -1,16 +1,16 @@
-{"format": "_Person_ caused _Event_"}
-{"format": "_Event_ was staged by _Group_"}
-{"format": "_Group_ is controlling _Thing_"}
-{"format": "_Event_ was an inside job"}
-{"format": "_Person_ is living a double life"}
-{"format": "_Event_ is a distraction from _Event_"}
-{"format": "_Group_ caused _Event_"}
-{"format": "_Person_ is controlled by _Group_"}
-{"format": "_Event_ is a hoax"}
-{"format": "_Person_ is a part of _Group_"}
-{"format": "_Person_ is a clone of _Person_"}
-{"format": "_Person_ was a part of _Event_"}
-{"format": "_Person_ is controlling _Thing_"}
-{"format": "Because of _Event_, _Person_ is trying to ban _Thing_"}
-{"format": "_Person_ is manipulating _Group_ because of _Event_"}
-{"format": "_Event_ was a test run for _Event_"}
+_Person_ caused _Event_
+_Event_ was staged by _Group_
+_Group_ is controlling _Thing_
+_Event_ was an inside job
+_Person_ is living a double life
+_Event_ is a distraction from _Event_
+_Group_ caused _Event_
+_Person_ is controlled by _Group_
+_Event_ is a hoax
+_Person_ is a part of _Group_
+_Person_ is a clone of _Person_
+_Person_ was a part of _Event_
+_Person_ is controlling _Thing_
+Because of _Event_, _Person_ is trying to ban _Thing_
+_Person_ is manipulating _Group_ because of _Event_
+_Event_ was a test run for _Event_
