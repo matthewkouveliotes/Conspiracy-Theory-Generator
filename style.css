@@ -58,6 +58,9 @@ label {
 }
 
 #disclaimer {
-    margin-top: 5%;
+    position: absolute
+    bottom: 0;
+    left: 0;
+    z-index: 10;
     font-size: 80%;
 }
