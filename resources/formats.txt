@@ -14,3 +14,4 @@ _Person_ is controlling _Thing_
 Because of _Event_, _Person_ is trying to ban _Thing_
 _Person_ is manipulating _Group_ because of _Event_
 _Event_ was a test run for _Event_
+According to evidence from _Group_, _Event_ was actually good!

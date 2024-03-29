@@ -49,3 +49,7 @@ body #home {
 #content {
     transition: transform 500ms;
 }
+#total {
+    text-align: center;
+    font-size: 200%;
+}
