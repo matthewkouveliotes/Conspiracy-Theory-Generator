@@ -26,7 +26,7 @@ function createConspiracy() {
     currSpin+= 360000
 
     document.getElementById("content").style.transform = "rotateX(" + currSpin + "deg)";
-    var text = formats[6]
+    var text = formats[Math.floor(Math.random() * formats.length)]
     var peopleN = 0;
     var amtPeople = text.match(/_Person_/g);
     if(amtPeople != null) peopleN = amtPeople.length;
@@ -49,9 +49,7 @@ function createConspiracy() {
         text = text.replace("_Group_", rep);
     }
     for(var i = 0; i < eventN; i++) {
-        var num = Math.floor(Math.random() * events.length);
-        console.log(num);
-        var rep = events[num];
+        var rep = events[Math.floor(Math.random() * events.length)];
         text = text.replace("_Event_", rep);
     }
     for(var i = 0; i < thingN; i++) {
