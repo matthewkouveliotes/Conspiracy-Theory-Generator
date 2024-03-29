@@ -1,5 +1,5 @@
 _Person_ caused _Event_
-_Event_ was staged by _Group_
+_Event_ was staged by _Group_ to control _Thing_
 _Group_ is controlling _Thing_
 _Event_ was an inside job
 _Person_ is living a double life
@@ -12,6 +12,8 @@ _Person_ is a clone of _Person_
 _Person_ was a part of _Event_
 _Person_ is controlling _Thing_
 Because of _Event_, _Person_ is trying to ban _Thing_
-_Person_ is manipulating _Group_ because of _Event_
+_Person_ is manipulating _Thing_ because of _Event_
 _Event_ was a test run for _Event_
 According to evidence from _Group_, _Event_ was actually good!
+_Group_ killed _Person_ because of _Event_
+_Group_ wants to get rid of _Thing_ because of _Event_
