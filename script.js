@@ -116,19 +116,20 @@ function mode() {
     var status = document.getElementById("check").checked;
     if(status) {
         theme.setAttribute('href', 'Styles/dark.css');
+        document.getElementById("icon").src = "https://static.thenounproject.com/png/4066359-200.png";
         localStorage.setItem("modePref", "dark");
     }
     else {
         theme.setAttribute('href', 'Styles/light.css');
+        document.getElementById("icon").src = "https://static-00.iconduck.com/assets.00/mode-light-icon-2048x2048-no286vfd.png";
         localStorage.setItem("modePref", "light");
     }
 }
 
 function loadMode() {
     var prefMode = localStorage.getItem("modePref");
-    if(prefMode == null) return;
-    theme.setAttribute('href', `Styles/${prefMode}.css`)
     if(prefMode === 'dark') {
         document.getElementById("check").checked = true;
     }
+    mode()
 }
