@@ -1,18 +1,17 @@
 body {
-    background-color: #325354;
     margin: 0;
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #dfeff0;
+    transition: background-color 500ms, color 500ms;
 }
 body #home{
     font-size: 300%;
     margin-left: 5%;
     margin-top: 2.5%
+    transition: color 500ms;
 }
 body #home {
-    color: #dfeff0;
     cursor: pointer;
 }
 #title {
@@ -24,17 +23,15 @@ body #home {
 }
 
 #display {
-    background-color: #7f9899;
     text-align: center;
     font-size: 300%;
     padding: 5%;
     border-radius: 25px;
     margin: 0 5%;
-    color: #dbdacc;
+    transition: background-color 500ms, color 500ms;
 }
 
 #generate {
-    background-color: #deba50;
     border-radius: 25px;
     border-style: none;
     cursor: pointer;
@@ -43,9 +40,7 @@ body #home {
     font-size: 50%;
 }
 
-#generate:hover {
-    background-color: #877231;
-}
+
 #content {
     transition: transform 500ms;
 }

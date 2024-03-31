@@ -30,6 +30,7 @@ function loadPresets() {
         check++;
         calculatePossible(check);
     }).catch((e) => console.error(e));
+    loadMode();
 }
 var currSpin = 0;
 function createConspiracy() {
@@ -109,4 +110,25 @@ function calculatePossible(checks) {
 
     }
     document.getElementById("total").innerHTML = "There are " + total + " calculated possible conspiracy theories<br>Some are bound to be correct, right?";
+}
+
+function mode() {
+    var status = document.getElementById("check").checked;
+    if(status) {
+        theme.setAttribute('href', 'Styles/dark.css');
+        localStorage.setItem("modePref", "dark");
+    }
+    else {
+        theme.setAttribute('href', 'Styles/light.css');
+        localStorage.setItem("modePref", "light");
+    }
+}
+
+function loadMode() {
+    var prefMode = localStorage.getItem("modePref");
+    if(prefMode == null) return;
+    theme.setAttribute('href', `Styles/${prefMode}.css`)
+    if(prefMode === 'dark') {
+        document.getElementById("check").checked = true;
+    }
 }

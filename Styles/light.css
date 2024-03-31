@@ -1,0 +1,21 @@
+body {
+    background-color: #325354;
+    color: #dfeff0;
+}
+
+#display {
+    background-color: #7f9899;
+    color: #dbdacc;
+}
+
+#generate {
+    background-color: #deba50;
+}
+
+#generate:hover {
+    background-color: #877231;
+}
+
+body #home {
+    color: #dfeff0;
+}

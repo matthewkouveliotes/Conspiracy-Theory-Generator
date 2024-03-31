@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Conspiracy Theory Generator</title>
     <link rel="stylesheet" href="style.css">
+    <link id="theme" rel="stylesheet" href="Styles/light.css">
+    <link rel="stylesheet" href="Styles/switch.css">
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +13,10 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body onload="loadPresets()">
+<label class="switch">
+    <input id="check" onclick="mode()" type="checkbox">
+    <span class="slider round"></span>
+</label>
 <a id="home" href="https://www.mkouv.dev">an mkouv-dev project</a>
 <h1 id="title">Conspiracy Theory Generator - v0.1.61</h1>
 <p id="desc">Because media literacy still exists... right?</p>

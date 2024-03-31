@@ -1,0 +1,22 @@
+body {
+    background-color: #091224;
+    color: #edecd8;
+}
+
+body #home {
+    color: #edecd8;
+    cursor: pointer;
+}
+
+#display {
+    background-color: #2d0f3d;
+    color: #edecd8;
+}
+
+#generate {
+    background-color: #deba50;
+}
+
+#generate:hover {
+    background-color: #877231;
+}
