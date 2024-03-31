@@ -18,3 +18,4 @@ According to evidence from _Group_, _Event_ was actually good!
 _Group_ killed _Person_ because of _Event_
 _Group_ wants to get rid of _Thing_ because of _Event_
 _Group_ is using _Thing_ to hide _Event_
+_Person_ is using _Thing_ to attack _Thing_
