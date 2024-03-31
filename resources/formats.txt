@@ -19,3 +19,4 @@ _Group_ killed _Person_ because of _Event_
 _Group_ wants to get rid of _Thing_ because of _Event_
 _Group_ is using _Thing_ to hide _Event_
 _Person_ is using _Thing_ to attack _Thing_
+_Group_ is promoting _Thing_ to distract us from _Event_
