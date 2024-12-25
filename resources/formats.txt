@@ -20,3 +20,8 @@ _Group_ wants to get rid of _Thing_ because of _Event_
 _Group_ is using _Thing_ to hide _Event_
 _Person_ is using _Thing_ to attack _Thing_
 _Group_ is promoting _Thing_ to distract us from _Event_
+_Person_ was seen at a Diddy Party
+_Person_ is on the Epstein List
+_Group_ has exposed that _Person_ is responsible for _Event_
+_Group_ has found that _Thing_ is actually controlled by _Group_
+_Group_ has found that _Thing_ is actually controlled by _Person_
